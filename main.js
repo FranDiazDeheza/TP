@@ -1,3 +1,5 @@
+let numeroseguimiento =  Math.floor(Math.random() * (99999 - 10000 + 1)) + 10000;
+
 function showAlert() {
-  alert("Gracias por la Compra!");
+  alert(`Muchas gracias por su compra! Su numero de seguimiento es ${numeroseguimiento} `);
 }
